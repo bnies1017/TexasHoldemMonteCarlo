@@ -1,7 +1,7 @@
 # Texas Holdem Monte Carlo #
 
 ## Overview ##
-This repository contains code that simulates hundreds of thousands of poker hands and collects data for estimating hand equity, a useful resource for providing insight into player behavior, game dynamics, and strategies that can improve performance in poker games. Equity estimates are based on features engineered to describe similar hands as they appear over Monte-Carlo simulation data.
+The goal of this project was to create a Pandas dataframe which serves as a lookup table to quickly provide equity estimates for Texas Holdem Poker hands at any stage in the game. While there is theoretically a formula to give the actual likelihood of any possible hand, determining these formulas can become convoluted when considering rare edge cases or incomplete hands which have several possible outcomes.
 
 ## [Section 01: Hand Simulation](./notebooks/01_hand_simulation.ipynb) ##
 
